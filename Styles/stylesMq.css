@@ -1,0 +1,438 @@
+@media screen and (min-width: 498px) {
+	/* INDEX */
+
+	.card-conteiner {
+		padding: 0.7rem;
+	}
+	.cardImg {
+		height: 90px;
+		width: 90px;
+	}
+	.titleCard {
+		font-size: 1.3em;
+		margin-top: 10px;
+	}
+	.descriptionCard {
+		font-size: 1em;
+	}
+	.myCard-body {
+		padding: 0.8rem;
+	}
+	.firm-p {
+		width: 55%;
+	}
+	.img-p {
+		width: 45%;
+	}
+	.imgs-kolab {
+		padding: 1.5rem;
+		width: 60%;
+	}
+	.list-kolab {
+		font-size: 0.9rem;
+	}
+
+	/* SERVICES SECTION */
+	.cards-services-columns {
+		flex-basis: 50%;
+	}
+
+	/* FOOTER */
+	.img-firm-footer {
+		width: 70%;
+	}
+	.img-locate-footer {
+		width: 40%;
+	}
+}
+@media screen and (min-width: 768px) {
+	/* INDEX */
+	.container-help {
+		flex-direction: row;
+		align-items: center;
+	}
+	.div-titleHelp {
+		width: 30%;
+	}
+	.div-mission {
+		width: 70%;
+	}
+
+	.cards {
+		flex-wrap: wrap-reverse;
+	}
+
+	.card-conteiner {
+		padding: 0.5rem;
+		flex-basis: 33.3333%;
+	}
+
+	.card-conteiner:nth-child(1) {
+		order: 1;
+	}
+	.card-conteiner:nth-child(2) {
+		order: 2;
+	}
+	.cardImg {
+		height: 110px;
+		width: 110px;
+	}
+	.titleCard {
+		font-size: 1.3em;
+		margin-top: 10px;
+	}
+	.descriptionCard {
+		font-size: 1em;
+	}
+	.img-picture {
+		padding-top: 5rem;
+	}
+	.my-description-container {
+		display: none;
+	}
+
+	.rectangle-coments-flex {
+		display: flex;
+	}
+	.card-column {
+		flex-basis: 20%;
+	}
+	.firm-p {
+		padding: 0.5rem 10rem 0.5rem 0.5rem;
+		width: 60%;
+	}
+	.img-p {
+		width: 40%;
+	}
+
+	.logos-img-kolab {
+		width: 60%;
+	}
+	.logos-img-highly {
+		width: 100%;
+	}
+
+	.imgs-kolab {
+		width: 40%;
+		padding: 1rem 1rem 1rem 3rem;
+	}
+	.li-flex {
+		width: 60%;
+	}
+	.list-kolab {
+		flex-basis: 50%;
+	}
+	.img-items-service {
+		padding: 1rem 4rem;
+	}
+
+	.how-works-title {
+		padding: 1rem 8rem;
+	}
+
+	/* FOOTER */
+	.icons-footer-flex {
+		flex-flow: row nowrap;
+		padding: 1rem;
+	}
+	.img-firm-footer {
+		width: 60%;
+	}
+	.img-locate-footer {
+		width: 40%;
+	}
+
+	.order-a {
+		order: 1;
+	}
+	.order-b {
+		order: 4;
+	}
+	.order-c {
+		order: 3;
+	}
+	.order-d {
+		order: 2;
+	}
+	.flex-footer p {
+		font-size: 1rem;
+	}
+
+	.flex-footer a {
+		font-size: 1rem;
+	}
+	.icons-top {
+		padding-top: 0;
+	}
+	.icons-bottom {
+		padding-bottom: 0;
+	}
+
+	.footer-column-left {
+		padding-right: 0;
+	}
+	/* SERVICES SECTION */
+
+	.cards-services-columns {
+		flex-basis: 33.333%;
+		padding: 0 1rem;
+	}
+	.myPoint {
+		flex-flow: row wrap;
+		padding: 20px;
+	}
+	.myPoints {
+		margin: 6px;
+		flex-basis: 48%;
+	}
+
+	.services {
+		flex-flow: row wrap;
+		padding: 20px;
+	}
+	.service {
+		margin: 6px;
+		flex-basis: 48%;
+	}
+	.subtitleServices {
+		flex-direction: row;
+		margin-left: 20px;
+		padding: 1rem;
+	}
+	.service-level-div {
+		padding-left: 8.5rem;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	/* NAVBAR */
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 0;
+	}
+	.navbar-expand-lg .navbar-collapse {
+		display: flex !important;
+		flex-basis: auto;
+		justify-content: center;
+	}
+	/* INDEX */
+	.logos-img-kolab {
+		width: 50%;
+	}
+	.logos-img-highly {
+		width: 90%;
+	}
+
+	.list-kolab {
+		font-size: 1rem;
+	}
+	.card-column {
+		padding: 1rem;
+	}
+}
+
+@media screen and (min-width: 975px) {
+	/* INDEX */
+	.div-titleHelp p {
+		font-size: 1.1rem;
+	}
+	.cardImg {
+		height: 40%;
+		width: 40%;
+	}
+	.card-conteiner {
+		padding: 1rem;
+	}
+	.firm-p {
+		padding: 0.5rem 20rem 0.5rem 0.5rem;
+		width: 70%;
+		font-size: 1rem;
+	}
+	.img-p {
+		width: 30%;
+	}
+
+	.img-cards2 {
+		height: 100px;
+		width: 100px;
+		margin-top: 2rem;
+		padding-bottom: 1rem;
+	}
+	.myCard-text {
+		flex-grow: 1;
+		padding-bottom: 1rem;
+	}
+	.title-card2 {
+		font-size: 1.3rem;
+	}
+
+	/* SERVICES SECTION */
+
+	.btn-wAout {
+		padding-right: 2rem;
+		justify-content: flex-end;
+	}
+
+	/* EDITING PAGE */
+
+	/* FOOTER */
+	.order-a {
+		align-self: center;
+	}
+	.f-txt-mg {
+		margin-top: -13px;
+	}
+	.img-firm-footer {
+		width: 55%;
+	}
+	.img-locate-footer {
+		width: 35%;
+	}
+}
+
+@media screen and (min-width: 1136px) {
+	.subtitles-p {
+		font-size: 1.2rem;
+	}
+
+	.imgs-kolab {
+		padding: 1rem 1rem 1rem 5rem;
+	}
+	.cardImg {
+		height: 40%;
+		width: 40%;
+		padding-top: 2rem;
+	}
+
+	.card-conteiner {
+		padding: 1.5rem;
+	}
+	.f-txt-mg {
+		margin-top: -33px;
+	}
+	.logos-img-kolab {
+		width: 40%;
+	}
+	.logos-img-highly {
+		width: 70%;
+	}
+
+	.works-text-3col-view {
+		width: 914px;
+	}
+	.works-text-2col-view {
+		width: 1003px;
+	}
+	.works-text {
+		width: 922px;
+	}
+	.how-works-title {
+		padding: 1rem 14rem;
+	}
+	.img-items-service {
+		padding: 1rem 10rem;
+	}
+	/* FOOTER */
+	.img-firm-footer {
+		width: 50%;
+	}
+	.img-locate-footer {
+		width: 30%;
+	}
+	/* EDITING PAGE */
+	.myCard-serv {
+		padding: 1rem 1rem;
+	}
+}
+
+@media screen and (min-width: 1237px) {
+	.PaperTheses {
+		text-align: center;
+	}
+	.works-text-3col-view {
+		width: 1040px;
+	}
+	.works-text-2col-view {
+		width: 1128px;
+	}
+	.works-text {
+		width: 1047px;
+	}
+	.firm-p {
+		padding: 0.5rem 35rem 0.5rem 0.5rem;
+	}
+	.logos-img-kolab {
+		width: 30%;
+	}
+	.logos-img-highly {
+		width: 60%;
+	}
+}
+@media screen and (min-width: 1350px) {
+	.div-titleHelp p {
+		font-size: 1.5rem;
+	}
+	.bold-works {
+		font-size: 1.2rem;
+	}
+	.works-text-1 {
+		font-size: 1rem;
+	}
+	.works-text-3col-view {
+		font-size: 1rem;
+		width: 1184px;
+	}
+	.works-text-2col-view {
+		font-size: 1rem;
+		width: 1272px;
+	}
+	.works-text {
+		font-size: 1rem;
+		width: 1191px;
+	}
+	.titleCard {
+		font-size: 1.5rem;
+	}
+	.descriptionCard {
+		font-size: 1.2rem;
+	}
+	.firm-p {
+		font-size: 1.2rem;
+	}
+	/* SCIENTIFIC WRITING PAGE */
+	.subtitleP {
+		font-size: 1.2rem;
+	}
+	.descriptionPoint {
+		font-size: 1.2rem;
+	}
+	.service {
+		font-size: 1.2rem;
+	}
+	/* EDITING PAGE */
+	.service-level-p {
+		font-size: 1.2rem;
+	}
+	.text-card-p {
+		font-size: 1.2rem;
+	}
+	.myCard-serv {
+		padding: 2rem 1rem;
+	}
+}
+@media screen and (min-width: 1500px) {
+	.works-text-3col-view {
+		width: 1324px;
+	}
+	.works-text-2col-view {
+		width: 1412px;
+	}
+	.works-text {
+		width: 1331px;
+	}
+	.firm-p {
+		padding: 0.5rem 50rem 0.5rem 0.5rem;
+	}
+	.img-items-service {
+		padding: 1rem 15rem;
+	}
+}
